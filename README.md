@@ -1,35 +1,33 @@
-# Research Assistant powered by Groq
+# Llama3Search
 
-> Note: Fork and clone this repository if needed
+Llama3Search is a Streamlit-based web application designed to leverage Groq and Tavily APIs for enhanced web searching capabilities. This tool is intended for researchers and anyone interested in exploring a variety of web sources through a unified interface.
 
-### 1. Create a virtual environment
+## Features
+
+- **Streamlit Web Interface**: Easy-to-use web interface for conducting web searches.
+- **Groq API Integration**: Leverages the Groq API for efficient data processing.
+- **Tavily API Utilization**: Uses the Tavily API for expanded web search capabilities.
+
+## Installation
+
+To set up the Llama3Search application, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone [repository-url]
+   cd llama3search-main
+
+
+### 2.Set Up Environment:
+
+python -m venv venv
+source venv/bin/activate
+
+### 3. Install Requirements:
 
 ```shell
-python3 -m venv ~/.venvs/aienv
-source ~/.venvs/aienv/bin/activate
-```
+pip install -r requirements.txt
 
-### 2. Export your Groq & Tavily API Key
+### 4.Environment Variables:
+Ensure you have the .env file setup with your GROQ_API_KEY and TAVILY_API_KEY.
 
-```shell
-export GROQ_API_KEY=***
-export TAVILY_API_KEY=***
-```
-
-### 3. Install libraries
-
-```shell
-pip install -r cookbook/llms/groq/research/requirements.txt
-```
-
-### 4. Run Streamlit App
-
-```shell
-streamlit run cookbook/llms/groq/research/app.py
-```
-
-- Open [localhost:8501](http://localhost:8501) to view your Groq Researcher.
-
-### 5. Message on [discord](https://discord.gg/4MtYHHrgA8) if you have any questions
-
-### 6. Star ⭐️ the project if you like it.
