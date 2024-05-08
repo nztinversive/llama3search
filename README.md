@@ -25,7 +25,7 @@ source venv/bin/activate
 
 ### 3. Install Requirements:
 
-```shell
+shell
 pip install -r requirements.txt
 
 ### 4.Environment Variables:
