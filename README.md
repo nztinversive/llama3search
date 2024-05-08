@@ -31,3 +31,7 @@ pip install -r requirements.txt
 ### 4.Environment Variables:
 Ensure you have the .env file setup with your GROQ_API_KEY and TAVILY_API_KEY.
 
+
+### Link to preview 
+https://llama3search-nzt.streamlit.app/
+
