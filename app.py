@@ -6,10 +6,10 @@ load_dotenv()  # This loads the environment variables from a .env file situated 
 from assistant import get_research_assistant  # type: ignore
 
 st.set_page_config(
-page_title="Tavily Search Engine",
+page_title="Llama 3 Search Engine",
 page_icon=":mag:",
 )
-st.title("Tavily Search Engine")
+st.title("Llama 3 Search Engine")
 st.markdown("##### Powered by Groq")
 
 def main() -> None:
