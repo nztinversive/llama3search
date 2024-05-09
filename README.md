@@ -18,13 +18,12 @@ To set up the Llama3Search application, follow these steps:
    cd llama3search-main
 
 
-### 2.Set Up Environment:
+### 2. Set Up Environment:
    ```bash
    python -m venv venv
    source venv/bin/activate
 
 ### 3. Install Requirements:
-
    ```bash
    pip install -r requirements.txt
 
