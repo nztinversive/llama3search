@@ -19,14 +19,14 @@ To set up the Llama3Search application, follow these steps:
 
 
 ### 2.Set Up Environment:
-
-python -m venv venv
-source venv/bin/activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
 
 ### 3. Install Requirements:
 
-shell
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 ### 4.Environment Variables:
 Ensure you have the .env file setup with your GROQ_API_KEY and TAVILY_API_KEY.
